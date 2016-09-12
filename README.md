@@ -1,11 +1,25 @@
 # Avro phonetic for Fedora (Linux) in IBus
 Avro phonetic implementation for Linux in IBus.
+This Project is a copy project copied from
+https://github.com/fa7ad/avro-fedora
+
+Its copied for opensuse gnome user who want to use avro easyly without pain 
 
 ## Installation from source (m1)
 
-* Open terminal/package manager and install the dependencies:
+* Open Yast->softwere-Managment and search and install the packege given below:
 ```bash
-  yum install autoconf automake make gcc gjs ibus ibus-libs ibus-devel gjs-devel dbus-glib-devel
+  
+	*autoconf 
+	*automake 
+	*make 
+	*gcc 
+	*gjs 
+	*ibus 
+	*ibus-libs 
+	*ibus-devel 
+	*gjs-devel 
+	*git
 ```
 * Now Clone the repo and install
 ```bash
@@ -14,11 +28,7 @@ Avro phonetic implementation for Linux in IBus.
 	aclocal && autoconf && automake --add-missing
 	./configure --prefix=/usr
 	sudo make install
-```
-## Installation from Release (m2)
-1. Grab the latest RPM for your Architecture from [here](https://github.com/fa7ad/avro-fedora/releases)
-2. **Double-click** to open in **GNOME Software**
-3. Click _Install_
+
  
 ## Usage
  0. Reboot after installation
@@ -30,6 +40,7 @@ Avro phonetic implementation for Linux in IBus.
  6. Enjoy typing in Bangla using Avro Phonetic
 
 ## Contributors
+
  
 __IBus Engine__ by [__Sarim Khan__](https://github.com/sarim)
 
