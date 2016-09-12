@@ -23,8 +23,8 @@ Its copied for opensuse gnome user who want to use avro easyly without pain
 ```
 * Now Clone the repo and install
 ```bash
-	git clone https://github.com/fa7ad/avro-fedora.git
-	cd ibus-avro-fedora
+	git clone https://github.com/rahuliation/avro-opensuse-gnome
+	cd avro-opensuse-gnome
 	aclocal && autoconf && automake --add-missing
 	./configure --prefix=/usr
 	sudo make install
