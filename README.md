@@ -7,19 +7,19 @@ Its copied for opensuse gnome user who want to use avro easyly without pain
 
 ## Installation from source (m1)
 
-* Open Yast->softwere-Managment and search and install the packege given below:
+* Open **Yast->softwere-Managment** and search and install the packege given below:
 ```bash
   
-	*autoconf 
-	*automake 
-	*make 
-	*gcc 
-	*gjs 
-	*ibus 
-	*ibus-libs 
-	*ibus-devel 
-	*gjs-devel 
-	*git
+	autoconf 
+	automake 
+	make 
+	gcc 
+	gjs 
+	ibus 
+	ibus-libs 
+	ibus-devel 
+	gjs-devel 
+	git
 ```
 * Now Clone the repo and install
 ```bash
@@ -41,7 +41,8 @@ Its copied for opensuse gnome user who want to use avro easyly without pain
 
 ## Contributors
 
- 
+__https://github.com/fa7ad/avro-fedora__
+
 __IBus Engine__ by [__Sarim Khan__](https://github.com/sarim)
 
 [__Avro JavaScript Phonetic Library__](https://github.com/torifat/jsAvroPhonetic) by [__Rifat Nabi__](https://github.com/torifat)
