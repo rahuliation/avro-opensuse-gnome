@@ -1,4 +1,4 @@
-# Avro phonetic for Fedora (Linux) in IBus
+# Avro phonetic for Opensuse (Linux) (Desktop Environment GNOME) in IBus
 Avro phonetic implementation for Linux in IBus.
 This Project is a copy project copied from
 https://github.com/fa7ad/avro-fedora
